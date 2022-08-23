@@ -15,7 +15,7 @@ func fizzBuzz(n int) []string {
 	var ans string
 	const (
 		f = "Fizz"
-		b = "Bizz"
+		b = "Buzz"
 	)
 	res := make([]string, n, n)
 
@@ -34,7 +34,7 @@ func fizzBuzz(n int) []string {
 			res[i-1] = ans
 		}
 
-		fmt.Println(i, ans)
+		//fmt.Println(i, ans)
 		ans = ""
 
 	}
